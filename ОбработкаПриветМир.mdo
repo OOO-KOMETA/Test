@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29b73779-1901-4d06-9d9a-417eeb38bb2e">
+  <producedTypes>
+    <objectType typeId="364c20ce-5db4-4ef1-bc98-0ac378627636" valueTypeId="ea195a2f-383c-4eae-acef-05ee97251772"/>
+    <managerType typeId="131eb421-29fb-43ed-8f67-f87e784d777b" valueTypeId="a85089ad-e0a6-47ba-85aa-31dcce9b664a"/>
+  </producedTypes>
+  <name>ОбработкаПриветМир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка ПриветМир</value>
+  </synonym>
+  <comment>Демонстрационная обработка: вывод приветствия по команде формы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаПриветМир.Form.Форма</defaultForm>
+  <forms uuid="35882d8c-2582-48cd-8e8b-74b454b85654">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПриветМир</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>
